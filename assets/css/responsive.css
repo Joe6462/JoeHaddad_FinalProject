@@ -1,0 +1,367 @@
+/* responsive start  */
+@media screen and (max-width: 770px) {
+    .nav__mob {
+        display: flex;
+        position: absolute;
+        top: 25px;
+        left: 0;
+        z-index: 99;
+    }
+
+    .nav {
+        display: none !important;
+    } 
+
+    .goals{
+        flex-wrap: wrap;
+    }
+    .goals .img__wrapper{
+            margin: 0 auto;
+    }
+.who__we__are .img__wrapper img{
+    width: 40%;
+}
+    footer ul{
+        padding: 0;
+        text-align: start;
+    }
+    .sub__nav {
+        font-size: 16px;
+    }
+
+    .sub__nav .container {
+        padding: 5px 5px;
+    }
+
+    .sub__nav a {
+        font-weight: 400;
+    }
+
+    .sub__nav span {
+        margin: 0 5px;
+    }
+
+    .title__wrapper div {
+        font-size: 30px;
+    }
+
+    .experience .img__wrapper,
+    .donner__experience {
+        width: 100% !important;
+        padding: 30px;
+    }
+
+    .experience,
+    .solution .card__wrapper,
+    .support .support__wrapper .img__wrapper,
+    .mission,
+    footer {
+        flex-wrap: wrap;
+    }
+
+    .solution .card__wrapper .card {
+        width: calc(100% / 2 - 10px) !important;
+        margin: 5px;
+        padding: 10px;
+    }
+
+    .support .support__wrapper .img__wrapper a {
+        width: calc(100% / 2 - 40px);
+        margin: 20px 20px;
+    }
+
+    .mission .mission__wrapper {
+        width: calc(100% / 2 - 30px);
+    }
+
+    footer ul,
+    footer .icon__wrapper {
+        width: calc(100% / 2 - 20px);
+    }
+    .join__volunter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: calc(100% / 2);
+    }
+    .become__volunter{
+        width: calc(100% / 2);
+    }
+    .donation__wrapper{
+        justify-content: center;
+    }
+    .team__card__wrapper{
+        flex-wrap: wrap;
+    }
+    .team__card__wrapper .team__card{
+        width: calc(100% / 2 - 20px);
+    }
+    .money__card__wrapper .card .card__icon__wrapper{
+        font-size: 50px;
+    }
+    .money__card__wrapper .card p{
+        font-size: 20px;
+    }
+    .give__feedback p {
+        font-weight: 400;
+        font-size: 12px;
+    }
+    
+    
+}
+
+/* ------------------------------------------------------------------------------------------- */
+@media screen and (max-width: 1024px){
+    .who__we__are{
+        flex-wrap: wrap;
+    }
+    .who__we__are .img__wrapper{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .who__we__are .who__we__are__wrapper{
+        width: 100%;
+        padding: 20px;
+    }
+    .goals .img__wrapper{
+        width: 36%;
+    }
+  
+    .goals .goals__wrapper{
+        width: 100%;
+        padding: 15px;
+    }
+    .tag{
+        font-size: 20px;
+        text-align: center;
+    }
+    .title__wrapper div{
+        font-size: 35px;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------ */
+
+
+
+@media screen and (max-width: 450px) {
+
+
+    .nav ul {
+        padding: 5px;
+    }
+
+    .title__wrapper div {
+        font-size: 18px;
+    }
+
+    .sub__nav {
+        font-size: 10px;
+    }
+
+    .solution .card__wrapper .card,
+    .support .support__wrapper .img__wrapper a,
+    .mission .mission__wrapper {
+        width: 100% !important;
+    }
+
+    .who__we__are,
+    .goals,
+    .vission,
+    .donation__wrapper,
+    .volunter,
+    .team .team__card__wrapper,
+    .newsletter__wrapper,
+    .money__card__wrapper {
+        flex-wrap: wrap;
+    }
+
+    .donation__wrapper {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .who__we__are__wrapper {
+        padding: 20px;
+    }
+
+    .goals .img__wrapper img,
+    .who__we__are .img__wrapper img {
+        width: 100%;
+    }
+
+    .goals .img__wrapper,
+    .goals .goals__wrapper,
+    .vission .vission__wrapper,
+    .vission .img__wrapper,
+    .become__volunter,
+    .join__volunter,
+    .team__card,
+    .newsletter__wrapper .news__head,
+    .newsletter__wrapper .news__subscribe,
+    .money__card__wrapper .card,
+    .footer_form_wrapper,
+    .map__wrapper {
+        width: 100%;
+    }
+
+    .who__we__are .who__we__are__wrapper,
+    .who__we__are .img__wrapper {
+        width: 100%;
+    }
+
+    .goals .goals__wrapper ul li {
+        font-size: 14px;
+
+    }
+
+    .money__card__wrapper .card p,
+    .theme__title {
+        font-size: 20px;
+    }
+
+    .feedback__wrapper {
+        display: block;
+    }
+
+    .feedback__wrapper .img__wrapper {
+        justify-content: center;
+        display: flex;
+    }
+
+    .feedback__wrapper .img__wrapper .quots {
+        left: 20%;
+        top: 14%;
+        transform: translate(-50%, -50%);
+        background: transparent;
+    }
+
+    .give__feedback p {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    #contactus .container {
+        flex-wrap: wrap;
+    }
+}
+
+/* responsive end  */
+body {
+    margin: 0;
+    padding: 0;
+
+    /* make it look decent enough */
+    background: #232323;
+    color: #cdcdcd;
+    font-family: "Avenir Next", "Avenir", sans-serif;
+}
+
+#menuToggle {
+    display: block;
+    position: relative;
+    top: 15px;
+    left: 10px;
+    z-index: 5 !important;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#menuToggle a {
+    text-decoration: none;
+    color: #232323;
+
+    transition: color 0.3s ease;
+}
+
+#menuToggle a:hover {
+    color: tomato;
+}
+
+
+#menuToggle input {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+
+    cursor: pointer;
+
+    opacity: 0;
+    z-index: 2;
+
+    -webkit-touch-callout: none;
+}
+
+#menuToggle span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+
+    background: #cdcdcd;
+    border-radius: 3px;
+
+    z-index: 1;
+
+    transform-origin: 4px 0px;
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+        background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+        opacity 0.55s ease;
+}
+
+#menuToggle span:first-child {
+    transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+}
+
+#menuToggle input:checked~span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #232323;
+}
+
+#menuToggle input:checked~span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#menuToggle input:checked~span:nth-last-child(2) {
+    transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menu {
+    position: absolute;
+    width: 300px;
+    margin: -100px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+
+    background: #ededed;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+
+
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+}
+
+#menu li {
+    padding: 10px 0;
+    font-size: 22px;
+}
+
+#menuToggle input:checked~ul {
+    transform: none;
+}

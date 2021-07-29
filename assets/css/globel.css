@@ -1,0 +1,120 @@
+    /* width */
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+
+    .tag {
+        font-family: cursive;
+        color: var(--primmary);
+        font-size: 30px;
+    }
+
+    a:hover {
+        text-decoration: none !important;
+        color: white !important;
+    }
+
+    .sub__nav a:hover {
+        color: var(--secondary) !important;
+    }
+
+    .logo__wrapper {
+        max-width: 200px;
+    }
+
+    .informative,
+    .experience,
+    .solution,
+    .support {
+        margin: 40px 0;
+    }
+
+    .title__wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+
+    }
+
+    .title__wrapper div {
+        font-size: 45px;
+        font-weight: 600;
+        position: relative;
+        color: var(--secondary);
+    }
+
+    .title__wrapper div::after {
+        position: absolute;
+        content: "";
+        bottom: -10px;
+        left: 50%;
+        width: 50%;
+        transform: translate(-50%, -50%);
+        height: 2px;
+        background: gray;
+    }
+
+    footer {
+        align-items: center;
+        display: flex !important;
+        justify-content: center;
+        padding: 30px;
+        background: var(--primmary);
+    }
+
+    footer ul,
+    footer .icon__wrapper {
+        width: calc(100% / 4 - 20px);
+        list-style: none;
+        text-align: center;
+    }
+
+    footer .icon__wrapper a {
+        font-size: 25px;
+        margin: 0 10px;
+    }
+
+    footer .icon__wrapper .lni {
+        color: white;
+        transition: 500ms;
+    }
+
+    footer .icon__wrapper .lni:hover {
+        color: var(--secondary);
+        transform: rotate(-360deg) scale(1.5);
+    }
+
+    footer .footer__head {
+        font-weight: 600;
+        font-size: 25px;
+
+    }
+
+    footer ul li a {
+        font-size: 14px;
+        color: white;
+        text-decoration: none;
+    }
+    .footer_form_wrapper form input, textarea {
+        margin: 10px 0;
+        padding: 10px;
+        border-radius: 25px;
+        outline: none;
+        border: 1px solid gray;
+    }
